@@ -1,0 +1,37 @@
+<template>
+    <lightning-card title="Product Information"
+    icon-name="custom:custom85">
+<div class="slds-m-around_medium">
+        <div class="slds-grid" if:true={prodName}>
+            <div class="slds-col slds-size_1-of-2"> 
+            <b>Product: </b>  {prodName}
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+            <b>Country: </b>  {CountryCode}
+            </div>
+        </div>
+           <div class="slds-col slds-size_1-of-2" if:false={prodName}> 
+                No Product Informaiton found against this Contact.
+            </div>
+<ul class="slds-list_vertical slds-has-dividers_top-space">
+<template for:each={props}
+          for:item="item"
+          if:true={props}>
+    <li key={item.Id}
+        class="slds-list__item">
+        <lightning-record-view-form object-api-name="Product_Information__c" record-id={item.Id}>
+                <div class="slds-grid">
+                        <div class="slds-col slds-size_1-of-2">
+                            <lightning-output-field field-name="Type_of_Charges__c"></lightning-output-field>
+                      </div>
+                        <div class="slds-col slds-size_1-of-2">
+                            <lightning-output-field field-name="Charges__c"></lightning-output-field>
+                        </div>
+                    </div>     
+ </lightning-record-view-form>
+    </li>
+</template>
+</ul>
+</div>
+</lightning-card>
+</template>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="ProdInfoitem">
+    <apiVersion>47.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Product Information</masterLabel>
+    <description>This LWC displays the Product Information related the Contact on the Case, based on 2 fields on Contact (Product__C and Home_Country__C).</description>
+  <targets>
+    <target>lightning__RecordPage</target>
+  </targets>
+</LightningComponentBundle>

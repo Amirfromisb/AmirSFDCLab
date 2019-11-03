@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Charges__c</fullName>
+    <description>This Picklist will hold the Type of Charges</description>
+    <externalId>false</externalId>
+    <label>Type of Charges</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ATM Fee in other currencies</fullName>
+                <default>false</default>
+                <label>ATM Fee in other currencies</label>
+            </value>
+            <value>
+                <fullName>Card Replacement Cost</fullName>
+                <default>false</default>
+                <label>Card Replacement Cost</label>
+            </value>
+            <value>
+                <fullName>Cost per Calendar Month</fullName>
+                <default>false</default>
+                <label>Cost per Calendar Month</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

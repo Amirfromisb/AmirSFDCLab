@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Charges__c</fullName>
+    <description>This will Hold the actual Charges information
+This could have been a Currency field, but the Nature of Data shown in the sample tables in the assignment requires it to be text. e.g. € 9,90 N/a , Free and 1.7%</description>
+    <encryptionScheme>None</encryptionScheme>
+    <externalId>false</externalId>
+    <label>Charges</label>
+    <length>18</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

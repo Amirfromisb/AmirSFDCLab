@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>Amir.Shahzad@spglobal.com</contactEmail>
+    <contactPhone>+923108151228</contactPhone>
+    <label>Product Information</label>
+    <oauthConfig>
+        <callbackUrl>https://localhost:8443/RestTest/oauth/_callback</callbackUrl>
+        <consumerKey>3MVG9dCCPs.KiE4RkIy_lWsKVLifXW_ojVeLOg57EiO7CcMifxwXWSaZGt5dNJQolN6zl662QggIDl_EyiHh.</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <scopes>Api</scopes>
+    </oauthConfig>
+</ConnectedApp>
